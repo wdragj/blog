@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+
+logs/
+
+*.log
+
+.idea/
+
+yarn.lock
+
+node_modules/
+
+deploy.sh
+
+.vuepress/dist/
