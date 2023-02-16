@@ -1,4 +1,4 @@
-# 힙 정렬(Heap Sort)
+# Heap Sort
 
 ---
 

@@ -1,4 +1,4 @@
-# 비트마스크(BitMask)
+# BitMask
 
 ---
 

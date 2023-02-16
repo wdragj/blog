@@ -1,4 +1,4 @@
-# 기수 정렬(Radix sort)
+# Radix sort
 
 ---
 
