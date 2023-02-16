@@ -1,5 +1,5 @@
 module.exports = {
-    title: '👨🏻‍💻 Tech Interview',
+    title: '👨🏻‍💻 Dev Blog/Study',
     description: 'Ready for Tech-Interview',
     email: 'wdragj@gmail.com',
     base: '/blog/',
@@ -26,7 +26,7 @@ module.exports = {
                 title: '📋 Guide',
                 collapsable: false,
                 children: [
-                    ['/guide/면접 준비', '- 면접 준비']
+                    ['/guide/topics', '- Topics']
                 ]
             },
             {
@@ -381,10 +381,10 @@ module.exports = {
         ],
         sidebarDepth: 0,
         nav: [
-            { text: 'Home', link: 'https://gyoogle.dev/', target: '_self' },
-            { text: 'Github', link: 'https://github.com/gyoogle/tech-interview-for-developer' },
+            { text: 'Home', link: 'https://wdragj.github.io/blog', target: '_self' },
+            { text: 'Github', link: 'https://github.com/wdragj/blog' },
         ],
         smoothScroll: true,
-        lastUpdated: '최종 수정 '
+        lastUpdated: 'Last Updated '
     }
 }
