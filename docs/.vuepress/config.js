@@ -184,6 +184,14 @@ module.exports = {
                 children: [
                     {
                         type: 'group',
+                        title: '● Make',
+                        collapsable: true,
+                        children: [
+                            ['/computer-language/Make/GNU Make', '- GNU Make']
+                        ]
+                    },
+                    {
+                        type: 'group',
                         title: '● C',
                         collapsable: true,
                         children: [
