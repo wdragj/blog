@@ -10,7 +10,7 @@
 
 <img src="./img/GNU_make_syntax.png">
 
-<br>
+<br><br>
 
 ### Target / Dependency / Command
 
@@ -18,7 +18,7 @@
 
 <img src="./img/target_dependency_command.png">
 
-<br>
+<br><br>
 
 ### Makefile Example
 
@@ -41,7 +41,7 @@ edamame.txt:
     echo E
 ```
 
-<br>
+<br><br>
 
 When running "make" in this directory, the following bash commands will be evaluated in order:
 
@@ -52,7 +52,7 @@ echo A
 touch edamame.txt
 ```
 
-<br>
+<br><br>
 
 Step-by-step explanation:
 
