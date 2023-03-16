@@ -48,7 +48,8 @@ module.exports = {
                     ['/algorithm/LCA', '- LCA (Lowest Common Ancestor)'],
                     ['/algorithm/Dynamic Programming', '- Dynamic Programming'],
                     ['/algorithm/Dijkstra', '- Dijkstra Algorithm'],
-                    ['/algorithm/BitMask', '- BitMask']
+                    ['/algorithm/BitMask', '- BitMask'],
+                    ['/algorithm/Tries', '- Tries']
                 ]
             },
             {

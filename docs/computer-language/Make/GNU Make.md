@@ -20,6 +20,14 @@
 
 <br><br>
 
+### Makefile Flowchart
+
+---
+
+<img src="./img/makefile_flowchart.png">
+
+<br><br>
+
 ### Makefile Example
 
 ---
