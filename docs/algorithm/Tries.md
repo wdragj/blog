@@ -47,7 +47,7 @@ There's two major benefits to a trie.
 ---
 
 > **When you delete a word from a trie, the entire word (represented as a node) could be deleted, partially deleted, or not deleted at all.**
-
+>
 > **For a node to be deleted in trie, it must satisfy 2 conditions.**
 
 1. The node has to be the end of the word
