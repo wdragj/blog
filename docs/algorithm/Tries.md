@@ -2,8 +2,6 @@
 
 ---
 
-<br><br>
-
 ## Property
 
 ---
@@ -24,7 +22,7 @@ There's two major benefits to a trie.
 
 ---
 
-> When you insert a word into a tree, the entire word could be inserted, partially inserted, or not inserted at all.
+> **When you insert a word into a tree, the entire word could be inserted, partially inserted, or not inserted at all.**
 
 - If the word "apple" in its sequence of characters is not in the trie, then the entire word will be inserted.
 - If the word "app" is already in the trie, then the word "apple" will be partially inserted (l and e).
@@ -32,7 +30,7 @@ There's two major benefits to a trie.
 
 <br>
 
-> To insert a word into a trie, you need to follow these steps.
+> **To insert a word into a trie, you need to follow these steps.**
 
 1. Start at the root node.
 2. Check if the current node has a child for the first letter of the word.
@@ -48,9 +46,9 @@ There's two major benefits to a trie.
 
 ---
 
-> When you delete a word from a trie, the entire word (represented as a node) could be deleted, partially deleted, or not deleted at all.
+> **When you delete a word from a trie, the entire word (represented as a node) could be deleted, partially deleted, or not deleted at all.**
 
-> For a node to be deleted in trie, it must satisfy 2 conditions.
+> **For a node to be deleted in trie, it must satisfy 2 conditions.**
 
 1. The node has to be the end of the word
 2. The node has no children
