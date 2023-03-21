@@ -30,12 +30,12 @@ module.exports = {
                 ]
             },
             {
-                title: '📌 Algorithm & Data structure',
+                title: '📌 Data Structure & Algorithm',
                 collapsable: true,
                 children: [
-                    ['/algorithm & data structure/graphs/Graphs', '- Graphs'],
-                    ['/algorithm & data structure/Sets', '- Sets'],
-                    ['/algorithm & data structure/Tries', '- Tries']
+                    ['/DSA/graphs/Graphs', '- Graphs'],
+                    ['/DSA/Sets', '- Sets'],
+                    ['/DSA/Tries', '- Tries']
                 ]
             },
             {
