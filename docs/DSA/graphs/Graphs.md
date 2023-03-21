@@ -190,8 +190,8 @@ _strongly connected_ means that there is a path between the nodes in both direct
 ---
 
 There are two ways to store a graph:
-- [Adjacency Matrix](###Adjacency-Matrix)
-- [Adjacency List](###Adjacency-List)
+- [Adjacency Matrix](#adjacency-matrix)
+- [Adjacency List](#adjacency-list)
 
 ### Adjacency Matrix
 
