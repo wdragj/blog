@@ -33,9 +33,23 @@ module.exports = {
                 title: '📌 DSA',
                 collapsable: true,
                 children: [
-                    ['/DSA/graphs/Graphs', '- Graphs'],
-                    ['/DSA/Sets', '- Sets'],
-                    ['/DSA/Tries', '- Tries']
+                    {
+                        type: 'group',
+                        title: '● Algorithm',
+                        collapsable: true,
+                        children: [
+                        ]
+                    },
+                    {
+                        type: 'group',
+                        title: '● Data Structure',
+                        collapsable: true,
+                        children: [
+                            ['/DSA/graphs/Graphs', '- Graphs'],
+                            ['/DSA/Sets', '- Sets'],
+                            ['/DSA/Tries', '- Tries']
+                        ]
+                    }
                 ]
             },
             {
@@ -54,23 +68,6 @@ module.exports = {
                             ['/computer-science/computer-architecture/고정 소수점 & 부동 소수점', '- 고정 소수점 & 부동 소수점'],
                             ['/computer-science/computer-architecture/패리티 비트 & 해밍 코드', '- 패리티 비트 & 해밍 코드'],
                             ['/computer-science/computer-architecture/ARM 프로세서', '- ARM 프로세서']
-                        ]
-                    },
-                    {
-                        type: 'group',
-                        title: '● Data Structure',
-                        collapsable: true,
-                        children: [
-                            ['/computer-science/data-structure/Array', '- Array'],
-                            ['/computer-science/data-structure/Linked List', '- Linked List'],
-                            ['/computer-science/data-structure/Array vs ArrayList vs LinkedList', '- Array & ArrayList & LinkedList'],
-                            ['/computer-science/data-structure/Stack & Queue', '- Stack & Queue'],
-                            ['/computer-science/data-structure/Heap', '- Heap'],
-                            ['/computer-science/data-structure/Tree', '- Tree'],
-                            ['/computer-science/data-structure/Binary Search Tree', '- BST (Binary Search Tree)'],
-                            ['/computer-science/data-structure/Hash', '- Hash'],
-                            ['/computer-science/data-structure/Trie', '- Trie'],
-                            ['/computer-science/data-structure/B Tree & B+ Tree', '- B Tree & B+ Tree']
                         ]
                     },
                     {

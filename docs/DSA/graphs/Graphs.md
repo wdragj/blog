@@ -28,15 +28,15 @@ Nodes connected by an edge are called _adjacent_ (aka _neighbors_).
 ---
 
 The basic properties of a graph include:
-1. Vertices (nodes): The points where edges meet in a graph are known as vertices or nodes. A vertex can represent a physical object, concept, or abstract entity.
-2. Edges: The connections between vertices are known as edges. They can be undirected (bidirectional) or directed (unidirectional).
-3. Weight: A weight can be assigned to an edge, representing the cost or distance between two vertices. A weighted graph is a graph where the edges have weights.
-4. Degree: The degree of a vertex is the number of edges that connect to it. In a directed graph, the in-degree of a vertex is the number of edges that point to it, and the out-degree is the number of edges that start from it.
-5. Path: A path is a sequence of vertices that are connected by edges. A simple path does not contain any repeated vertices or edges.
-6. Cycle: A cycle is a path that starts and ends at the same vertex. A simple cycle does not contain any repeated vertices or edges.
-7. Connectedness: A graph is said to be connected if there is a path between any two vertices. A disconnected graph is a graph that is not connected.
-8. Planarity: A graph is said to be planar if it can be drawn on a plane without any edges crossing each other.
-9. Bipartiteness: A graph is said to be bipartite if its vertices can be divided into two disjoint sets such that no two vertices in the same set are connected by an edge.
+1. **Vertices (nodes):** The points where edges meet in a graph are known as vertices or nodes. A vertex can represent a physical object, concept, or abstract entity.
+2. **Edges:** The connections between vertices are known as edges. They can be undirected (bidirectional) or directed (unidirectional).
+3. **Weight:** A weight can be assigned to an edge, representing the cost or distance between two vertices. A weighted graph is a graph where the edges have weights.
+4. **Degree:** The degree of a vertex is the number of edges that connect to it. In a directed graph, the in-degree of a vertex is the number of edges that point to it, and the out-degree is the number of edges that start from it.
+5. **Path:** A path is a sequence of vertices that are connected by edges. A simple path does not contain any repeated vertices or edges.
+6. **Cycle:** A cycle is a path that starts and ends at the same vertex. A simple cycle does not contain any repeated vertices or edges.
+7. **Connectedness:** A graph is said to be connected if there is a path between any two vertices. A disconnected graph is a graph that is not connected.
+8. **Planarity:** A graph is said to be planar if it can be drawn on a plane without any edges crossing each other.
+9. **Bipartiteness:** A graph is said to be bipartite if its vertices can be divided into two disjoint sets such that no two vertices in the same set are connected by an edge.
 
 > **O(n) <= #edges <= O(n^2)**
 >
