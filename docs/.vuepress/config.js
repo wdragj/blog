@@ -30,26 +30,12 @@ module.exports = {
                 ]
             },
             {
-                title: '📌 Algorithm',
+                title: '📌 Algorithm & Data structure',
                 collapsable: true,
                 children: [
-                    ['/algorithm/Bubble Sort', '- Bubble Sort'],
-                    ['/algorithm/Selection Sort', '- Selection Sort'],
-                    ['/algorithm/Insertion Sort', '- Insertion Sort'],
-                    ['/algorithm/Quick Sort', '- Quick Sort'],
-                    ['/algorithm/Merge Sort', '- Merge Sort'],
-                    ['/algorithm/Heap Sort', '- Heap Sort'],
-                    ['/algorithm/Radix Sort', '- Radix Sort'],
-                    ['/algorithm/Counting Sort', '- Counting Sort'],
-                    ['/algorithm/Binary Search', '- Binary Search'],
-                    ['/algorithm/Hash Table', '- Hash Table'],
-                    ['/algorithm/DFS & BFS', '- DFS & BFS'],
-                    ['/algorithm/LIS', '- LIS (Longest Increasing Sequence)'],
-                    ['/algorithm/LCA', '- LCA (Lowest Common Ancestor)'],
-                    ['/algorithm/Dynamic Programming', '- Dynamic Programming'],
-                    ['/algorithm/Dijkstra', '- Dijkstra Algorithm'],
-                    ['/algorithm/BitMask', '- BitMask'],
-                    ['/algorithm/Tries', '- Tries']
+                    ['/algorithm & data structure/graphs/Graphs', '- Graphs'],
+                    ['/algorithm & data structure/Sets', '- Sets'],
+                    ['/algorithm & data structure/Tries', '- Tries']
                 ]
             },
             {
