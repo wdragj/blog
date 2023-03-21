@@ -43,7 +43,7 @@ module.exports = {
                                 title: '▶ Sort',
                                 collapsable: true,
                                 children: [
-                                    ['/DSA/algorithm/Merge-Sort', '- Merge Sort']
+                                    ['/DSA/algorithm/sort/Merge-Sort', '- Merge Sort']
                                 ]
                             },
                             ['/DSA/algorithm/Dijkstra', '- Dijkstra']
