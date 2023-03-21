@@ -30,7 +30,7 @@ module.exports = {
                 ]
             },
             {
-                title: '📌 Data Structure & Algorithm',
+                title: '📌 DSA',
                 collapsable: true,
                 children: [
                     ['/DSA/graphs/Graphs', '- Graphs'],
