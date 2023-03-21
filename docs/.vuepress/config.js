@@ -38,6 +38,15 @@ module.exports = {
                         title: '● Algorithm',
                         collapsable: true,
                         children: [
+                            {
+                                type: 'group',
+                                title: '▶ Sort',
+                                collapsable: true,
+                                children: [
+                                    ['/DSA/algorithm/Merge-Sort', '- Merge Sort']
+                                ]
+                            },
+                            ['/DSA/algorithm/Dijkstra', '- Dijkstra']
                         ]
                     },
                     {
@@ -45,9 +54,9 @@ module.exports = {
                         title: '● Data Structure',
                         collapsable: true,
                         children: [
-                            ['/DSA/graphs/Graphs', '- Graphs'],
-                            ['/DSA/Sets', '- Sets'],
-                            ['/DSA/Tries', '- Tries']
+                            ['/DSA/data-structure/graphs/Graphs', '- Graphs'],
+                            ['/DSA/data-structure/Sets', '- Sets'],
+                            ['/DSA/data-structure/Tries', '- Tries']
                         ]
                     }
                 ]
